@@ -1,2 +1,2 @@
 # stick-game
-stick figure fighting game created in javascript
+extract folder and open html file thats all
