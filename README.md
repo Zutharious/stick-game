@@ -1,2 +1,2 @@
 # stick-game
-extract folder and open html file thats all
+download folder and open html file thats all
