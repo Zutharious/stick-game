@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <link rel="stylesheet" href="style-stick.css">
+
+        <title>Stick Battle</title>
+        <link rel="icon" href="images/aolMan.png">
+        <a href="https://github.com/Zutharious"
+        target="_blank">
+        My Github
+        </a>
+        <hr>
+    </head>
+    <body> 
+        <main>
+            <div id="game">
+                <img id = "background" src="images/winBackground.jpg" draggable="false">
+                <img id="character" src="images/aolMan.png" draggable="false">
+                <img id="enemy" src="images/FirefoxLogo.png" draggable="false">
+                <img id = "store" src="images/controlPanel.png" draggable="false">
+                <button id="AttackButton">Attack</button>
+                <div id="characterHealthNum"> Player Health: 100</div>
+                <div id="enemyHealthNum"> Enemy Health: 100</div>
+                <div id = "characterHealthBar"></div>
+                <div id = "enemyHealthBar"></div>
+                <div id = "characterDeathBar"></div>
+                <div id = "enemyDeathBar"></div>
+                <div id = "playerDamageNum"></div>
+                <div id = "enemyDamageNum"></div>
+                <div id = "score">Score:0</div>
+
+                <div id = "storePage">
+                    <div id = "storeCloseBtn">X</div>
+                    <img id = "storeIcon" src="images/controlPanel.png" draggable="false">
+                    <div id = "storeTitle">Store</div>
+                    <img class = "upgrades" id = "firewall" src = "images/firewall.png" draggable="false">
+                    <img class = "upgrades" id = "minesweeper" src = "images/minesweeper.png" draggable="false">
+                    <img class = "upgrades" id = "battery" src="images/Battery.png" draggable="false">
+                    <img class = "upgrades" id = "calculator" src = "images/calculator.png" draggable="false">
+                    
+                    <!--keep storeDescription on bottom of storePage div-->
+                    <div id = "storeDescription">store description</div>
+                </div>
+                <div id = "stats"></div>
+            </div>
+            <script src="script-stick.js"></script>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
